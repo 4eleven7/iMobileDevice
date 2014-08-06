@@ -1,8 +1,10 @@
 iMobileDevice
 ===========
 
-iMobileDevice is an Objective-C framework (including test app) which wraps [libimobiledevice](http://www.libimobiledevice.org).
+iMobileDevice is an Objective-C framework that wraps [libimobiledevice](http://www.libimobiledevice.org).
 libimobiledevice is an open source library for communicating with iOS device natively.
+
+This project also contains a test application which showcases various features, and how to query properties, retrieve the devices wallpaper and take screenshots of the device.
 
 Currently only the following features from libimobiledevice are supported:
 * Finding basic device information (name, product type, color, height/width, scale factor)
