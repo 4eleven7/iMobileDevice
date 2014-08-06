@@ -11,3 +11,5 @@ Currently only the following features from libimobiledevice are supported:
 * Retrieving the icon for an installed application
 * Device screenshot
 * Retrieving device wallpaper
+
+![iMobileDevice test app](/Screenshot-testApp.png?raw=true)
