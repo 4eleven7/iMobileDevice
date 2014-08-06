@@ -16,20 +16,20 @@ Currently only the following features from libimobiledevice are supported:
 
 ![iMobileDevice test app](/Screenshot-testApp.png?raw=true)
 
-## Note about libimobiledevice
+## A small note about libimobiledevice
 Compiling the libimobiledevice framework was a hassle... so the pragmatic solution was to install libimobiledevice via homebrew, and copy the frameworks and headers into the project. 
 One day I'll invest some time into trying to sort this out, as it really isn't ideal. 
 
 But for now, it works.
 
-### Steps to rebuild libimobiledevice:
+#### Steps to rebuild libimobiledevice:
 
-#### Install homebrew:
+**Install homebrew:**  
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
-#### Install libimobiledevice:
-brew install -v --devel --fresh  automake autoconf libtool wget libimobiledevice
+**Install libimobiledevice:**  
+brew install -v --devel --fresh  automake autoconf libtool wget libimobiledevice  
 brew install -v --HEAD --fresh --build-from-source ideviceinstaller
 
-Then the compiled frameworks will be located in the following directory:
+Then the compiled frameworks will be located in the following directory:  
 /usr/local/Cellar/
