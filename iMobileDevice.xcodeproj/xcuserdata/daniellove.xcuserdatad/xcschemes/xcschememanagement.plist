@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>iMobileDevice.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>iMobileTestApp.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4255F34B197DA822009E9621</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4255F356197DA822009E9621</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4255F3DB197DB0DE009E9621</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4255F3ED197DB0DE009E9621</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
