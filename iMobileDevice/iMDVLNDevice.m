@@ -107,7 +107,7 @@
 			_name = [self.lockdownClient getPropertyForKey:@"DeviceName"];
 			_productType = [self.lockdownClient getPropertyForKey:@"ProductType"];
 			
-			NSString *color = [self.lockdownClient getPropertyForKey:@"DeviceColor"];
+			NSString *color = [self.lockdownClient getPropertyForKey:@"DeviceEnclosureColor"];
 			_deviceColor = [NSColor colorFromHexadecimalValue:color];
 			
 			_screenHeight = [[self.lockdownClient getPropertyForKey:@"ScreenHeight" domain:@"com.apple.mobile.iTunes"] floatValue];
