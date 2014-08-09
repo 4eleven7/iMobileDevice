@@ -316,7 +316,7 @@
 		
 		// Catch errors from connect/disconnect and methods
 		if (error != nil) {
-			NSLog(@"iMDVLNDevice.getIconStateWithCompletion error %@", error);
+			NSLog(@"iMDVLNDevice.setIconStateWithCompletion error %@", error);
 		}
 		
 		dispatch_async(dispatch_get_main_queue(), ^
@@ -357,7 +357,7 @@
 		
 		// Catch errors from connect/disconnect and methods
 		if (error != nil) {
-			NSLog(@"IMDVLNDevice.loadBasicDevicePropertiesWithCompletion error %@", error);
+			NSLog(@"IMDVLNDevice.loadSpringboardDisplayPropertiesWithCompletion error %@", error);
 		}
 		
 		dispatch_async(dispatch_get_main_queue(), ^
