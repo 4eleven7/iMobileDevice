@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4238027C1992E62700D377F0 /* iMobileDevice.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4255F34C197DA822009E9621 /* iMobileDevice.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4238027C1992E62700D377F0 /* iMobileDevice.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 4255F34C197DA822009E9621 /* iMobileDevice.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4255542B1988043400C77EB4 /* iMDVLNScreenshotrClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255542A1988043400C77EB4 /* iMDVLNScreenshotrClient.m */; };
 		4255542D1988044300C77EB4 /* iMDVLNScreenshotrClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255542C1988044300C77EB4 /* iMDVLNScreenshotrClient.h */; };
 		4255F396197DAA28009E9621 /* afc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F36F197DAA28009E9621 /* afc.h */; };
@@ -41,7 +41,6 @@
 		4255F3E1197DB0DE009E9621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F3E0197DB0DE009E9621 /* main.m */; };
 		4255F3E4197DB0DE009E9621 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F3E3197DB0DE009E9621 /* AppDelegate.m */; };
 		4255F3E6197DB0DE009E9621 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4255F3E5197DB0DE009E9621 /* Images.xcassets */; };
-		4255F3E9197DB0DE009E9621 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4255F3E7197DB0DE009E9621 /* MainMenu.xib */; };
 		4255F3FD197DB15A009E9621 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4255F3FC197DB15A009E9621 /* Cocoa.framework */; };
 		4255F401197DB189009E9621 /* iMobileDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4255F34C197DA822009E9621 /* iMobileDevice.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		4255F406197DB1D5009E9621 /* DeviceInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F403197DB1D5009E9621 /* DeviceInfoWindow.m */; };
@@ -65,6 +64,7 @@
 		4255F432197DB228009E9621 /* iMDVLNSpringboardClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F428197DB228009E9621 /* iMDVLNSpringboardClient.h */; };
 		4255F433197DB228009E9621 /* iMDVLNSpringboardClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4255F429197DB228009E9621 /* iMDVLNSpringboardClient.m */; };
 		4255F435197DB269009E9621 /* iMDVLNClientProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255F434197DB269009E9621 /* iMDVLNClientProtocol.h */; };
+		793BC9981A37515500D79883 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4255F3E7197DB0DE009E9621 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,14 +78,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4238027B1992E61A00D377F0 /* CopyFiles */ = {
+		4238027B1992E61A00D377F0 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4238027C1992E62700D377F0 /* iMobileDevice.framework in CopyFiles */,
+				4238027C1992E62700D377F0 /* iMobileDevice.framework in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4255F3BC197DAA3D009E9621 /* Copy Frameworks */ = {
@@ -414,7 +415,7 @@
 				4255F3D8197DB0DE009E9621 /* Sources */,
 				4255F3D9197DB0DE009E9621 /* Frameworks */,
 				4255F3DA197DB0DE009E9621 /* Resources */,
-				4238027B1992E61A00D377F0 /* CopyFiles */,
+				4238027B1992E61A00D377F0 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -432,7 +433,7 @@
 		4255F343197DA822009E9621 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Daniel Love";
 				TargetAttributes = {
 					4255F34B197DA822009E9621 = {
@@ -475,7 +476,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4255F3E6197DB0DE009E9621 /* Images.xcassets in Resources */,
-				4255F3E9197DB0DE009E9621 /* MainMenu.xib in Resources */,
+				793BC9981A37515500D79883 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
